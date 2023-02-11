@@ -1,0 +1,152 @@
+
+/* for header*/
+/*@import url('https://fonts.googleapis.com/css2?family=Abel&family=IBM+Plex+Sans:ital,wght@0,100;1,400&family=Noto+Serif&family=Sono:wght@200&display=swap');
+ body{
+    font-family: 'Abel', sans-serif;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    font-family: 'Noto Serif', serif;
+
+    font-family: 'Sono', sans-serif;
+ }*/
+
+#header{
+    display: flex;
+     width: 100%;
+    position: fixed;
+    top: 0px;
+    margin-bottom: 20px;
+    left: 0;
+    align-items: center;
+    background-color: #d0d3d4;
+}
+
+
+#header-img{
+    width: 10%;
+    height: 10%;
+    margin-left: 15px;
+}
+
+.space-between{
+    margin-right: 60%;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+li{margin: 10px;
+list-style: none;
+color: black;
+}
+.nav-link{
+    color: black;
+}
+
+#w{
+    position: relative;
+    
+}
+/* content*/
+#container{
+    margin-top: 150px;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#video-container{
+    margin-top: 5%;
+}
+
+#section-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#princing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    gap: 10px;
+    
+}
+.pricing-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    padding: 2px;
+}
+.tituloprice{
+    width:100%;
+    background-color: #B3B6B7;
+    margin-top: -1px;
+}
+
+#footer{
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ width: 100%;
+ margin-top: 30px;
+ background-color: #d0d3d4;
+}
+
+@media (max-width: 800px) {
+    #header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        margin-bottom: 20px;
+        background-color: white;
+        align-items: center;
+        
+        
+    }
+    
+    .space-between{
+        margin-right: 0%;
+        margin-bottom: -10px;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+    
+
+    }
+    li{
+        margin-bottom: 0px;
+    }
+    #container{
+        margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  }
+  
